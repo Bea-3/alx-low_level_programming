@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - checks for uppercase 
+ * _isupper - checks for uppercase
  * @c: print int
  * Return: give 1 or 0
  */
@@ -16,4 +16,3 @@ int _isupper(int c)
 		return (0);
 	}
 }
-
