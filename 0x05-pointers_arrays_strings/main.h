@@ -1,5 +1,5 @@
-#ifndef _MAIN_H_INCLUDE
-#define _MAIN_H_INCLUDE
+#ifndef _HOBERTON_H_
+#define _HOBERTON_H_
 
 int _putchar(char c)
 void reset_to_98(int *n)
