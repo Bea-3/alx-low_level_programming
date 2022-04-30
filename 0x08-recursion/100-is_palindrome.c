@@ -13,6 +13,7 @@ int is_palindrome(char *s)
 		check(s, 0, _strlen_recursion(s) - 1, &flag);
 		return (flag);
 }
+
 /**
  * check - checks if a string is a palindrome
  * @s: string to be checked
@@ -21,7 +22,6 @@ int is_palindrome(char *s)
  * @flag: flag to indicate if a string is a palindrome
  * Return: void
  */
-
 void check(char *s, int start, int end, int *flag)
 {
 		if (start <= end)
@@ -33,6 +33,7 @@ void check(char *s, int start, int end, int *flag)
 			check(s, start + 1, end - 1, flag);
 		}
 }
+
 /**
  * _strlen_recursion - calculates the length of a string
  * @s: string to be used
