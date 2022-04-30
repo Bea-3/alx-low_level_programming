@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *evaluate_num - recursion loop
- *@num: number
- *@iterator: number to iterate
- *Return: return 1 or 0
+ * evaluate_num - recursion loop
+ * @num: number
+ * @iterator: number to iterate
+ * Return: return 1 or 0
  */
 
 int evaluate_num(int num, int iterator)
@@ -19,7 +19,7 @@ int evaluate_num(int num, int iterator)
 		return (0);
 	}
 
-	if (n % iterator != 0)
+	if (num % iterator != 0)
 	{
 		return (evaluate_num(num, iterator + 1));
 	}
