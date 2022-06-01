@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *main - displays the contents of an elf header
+ *main - displays contents of elf header
  *@argc:arguement count
  *@argv:argurment vector
  *Description: ./elf_header elf_file
- *Return:0 - success
+ *Return:0 
  */
 int main(int argc, char *argv[])
 {
@@ -50,8 +50,8 @@ int main(int argc, char *argv[])
 	return (0);
 }
 /**
- *elf_validation - validates whether a file is of elf format
- *@e_ident:file desc
+ *elf_validation - validates whether file is elf format
+ *@e_ident: file desc
  */
 void elf_validation(unsigned char *e_ident)
 {
@@ -67,7 +67,7 @@ void elf_validation(unsigned char *e_ident)
 }
 /**
  *print_magic - prints an elf's magic no.
- *@e_ident:file description
+ *@e_ident: file description
  */
 void print_magic(unsigned char *e_ident)
 {
@@ -84,7 +84,7 @@ void print_magic(unsigned char *e_ident)
 }
 /**
  *print_class - prints an elf's class
- *@e_ident:pointer to string
+ *@e_ident: pointer to string
  */
 void print_class(unsigned char *e_ident)
 {
